@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "LwUjrfejqOxxo6teADi/F2C9O8Gbquq6sVOh5sjITh+AO8+flR6ST4xq090r2hx+R37DH9NfrskZ0iWUqw1gYw==",
+  "success": true,
+  "projectFilePath": "/Users/tawandamavondo/Documents/Personal/Tawanda/dotnet/api/api.csproj",
+  "expectedPackageFiles": [
+    "/Users/tawandamavondo/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/tawandamavondo/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/tawandamavondo/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/tawandamavondo/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/tawandamavondo/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/tawandamavondo/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
