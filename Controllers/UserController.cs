@@ -1,45 +1,18 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[user]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class UserController : AbstractController<User>
     {
-        public UserController()
-        {
-        }
+       
 
-        [HttpGet("")]
-        public ActionResult<IEnumerable<User>> GetTModels()
-        {
-            return new List<User> { };
-        }
-
-        [HttpGet("{id}")]
-        public ActionResult<User> GetTModelById(int id)
-        {
-            return null;
-        }
-
-        [HttpPost("")]
-        public ActionResult<User> PostTModel(User model)
-        {
-            return null;
-        }
-
-        [HttpPut("{id}")]
-        public IActionResult PutTModel(int id, User model)
-        {
-            return NoContent();
-        }
-
-        [HttpDelete("{id}")]
-        public ActionResult<User> DeleteTModelById(int id)
-        {
-            return null;
-        }
+        // public UserController(ILogger<AbstractController<User>> logger) : base(logger)
+        // {
+        // }
     }
 }
 
