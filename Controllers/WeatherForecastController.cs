@@ -23,17 +23,10 @@ namespace api.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        public IEnumerable<String> Get()
         {
             var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)],
-                User = new User { id = "1c9052e9-2b73-494c-9235-0c86a9706b35" }
-            })
-            .ToArray();
+            return null;
         }
     }
 }
